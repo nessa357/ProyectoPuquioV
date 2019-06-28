@@ -1,0 +1,81 @@
+@charset "utf-8";
+body{
+	background:pink;
+	}
+
+#contenedor{
+	width:700px;
+	margin:auto;
+	}	
+	
+header{
+	background:white;
+	color:white;
+	margin:0px;
+	}
+	
+#banner{
+	margin:0px;
+	border-image:yellow;
+	}
+#baner{
+	margin:0px;
+	}
+	
+#titulo{
+	padding:10px 0px 10px 20px;
+	color:black;
+	}
+
+#menu{
+	background:white;
+	width:120px;
+	height:700px;
+	margin:0px;
+	/*float:left;*/
+	margin-top:-25px;
+	
+	}	
+
+#menu li{
+	list-style:none;
+	margin-left:-20px;
+	margin-top:25px;
+	
+	}
+
+#menu li a{
+	text-decoration:none;
+	color:black;
+	}
+#menu li a:hover{
+	color:#03F;
+	font-weight:bold;
+	}
+
+#CuerpoDocumento{
+	background:#FFF;
+	width:520px;
+	height:680px; /*280px;*/
+	margin:0px;
+	/*float:right;*/
+	padding:10px;
+	}
+	
+/*footer{
+	background:#FC3;
+	margin:0px;
+	text-align:center;
+	line-height:70px; /*para centrar verticalmente (paso1) 
+	margin-top:-25px;
+	}	
+*/
+h4{
+	vertical-align: middle; /*para centrar verticalmente (paso2) */
+	}	
+	
+#principal{
+	display:flex;
+	flex-direction: row;
+	border:20px black;
+}
